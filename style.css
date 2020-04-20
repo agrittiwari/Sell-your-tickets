@@ -1,0 +1,295 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400");
+@import url("https://fonts.googleapis.com/css?family=Metal+Mania");
+
+@font-face{
+    font-family: "Booter - Zero Zero";
+    src: url("Font/Booter - Zero Zero/Booter - Zero Zero.woff") format("woff"),
+         url("Font/Booter - Zero Zero/Booter - Zero Zero.woff2") format("woff2");
+    font-style:"normal";
+    font-weight: normal;
+}
+*{
+    box-sizing: border-box;
+    font-family: raleway;
+     
+}
+
+html{
+    background-color:white;
+
+}
+
+.bandpic{
+    height:400px;
+    width: 400px;
+    border-radius: 50%;
+    float: left;
+    margin: 15px;
+}
+.main-header{
+    background-image: url(Img_src/header-background.jpg);
+    background-size: cover;
+    padding-bottom: 20px;
+    background-blend-mode: multiply;
+    background-color: #776c17;
+}
+html, body{
+    margin:0;
+    padding:0;
+}
+.nav li{
+    display: inline;
+}
+.nav ul{
+    margin: 0px;
+}
+.nav a{
+    display: inline-block;
+    padding: 0.5em;
+    color: white;
+    text-decoration: none;
+
+}
+
+.nav a:hover{
+    background-color: rgb(255, 255,255,.3);
+}
+.main-nav{
+    background-color: black .6;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight:lighter;
+    border-bottom:1px solid rgba(255, 255, 255, 0.2);
+}
+
+.main-nav li{
+    padding: 0 5%;
+}
+.band-name{
+    text-align: center;
+    margin: 0px;
+    font-size: 7em;
+    font-family: "Booter - zero zero";
+    font-weight: normal;
+    color: white;
+}
+
+
+.band-name-large{
+    font-size: 8em;
+}
+
+.content-section{
+    margin: 1em;
+
+}
+.container{
+    max-width: 900px;
+    margin: 0;
+    margin-right: 0;
+    margin-left: 0;
+    padding:0 1em;
+}
+
+.section-header{
+    font-family: "Metal Mania";
+    font-weight: lighter;
+    color: grey;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+
+.main-footer{
+    background-color: #56ccf2;
+    color: white;
+    padding: .25em 0;
+    
+}
+
+.main-footer-container{
+    display: flex;
+    align-items: center;
+}
+.main-footer-container ul{
+    flex-grow: 1;
+    text-align: end;
+
+}
+
+.footer-nav li{
+    padding: 0 .5em;
+}
+
+.footer-nav img{
+    width: 30px;
+    height: 30px;
+}
+
+.btn{
+    text-align: center;
+    vertical-align: middle;
+    padding: 0.67em;
+    cursor: pointer;
+}
+
+.btn-header{
+    margin:.5em 15% 2em 15%;
+    color: white;
+    border: 2px solid #2D9CDB;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 0;
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+
+.btn-header:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.btn-play{
+    
+    margin: o, auto;
+    display: block;
+    color: #2D9CDB;
+    border: 2px solid #2D9CDB;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    font-size: 3em;
+    font-weight: lighter;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+}
+
+.tour-row{
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+  
+.tour-row:last-child{
+    border-bottom: none;
+}
+
+.tour-item{
+
+    padding: .45em;
+    display: inline-block;
+
+}
+
+.tour-date{
+    color: #555;
+    font-weight: bold;
+    width: 11%;
+    }
+
+
+.tour-city{
+    width: 24%;
+
+}
+
+.tour-arena{
+    width: 42%;
+    padding: 1px;
+}
+
+.tour-btn{
+max-width:19%;
+}
+
+.btn-primary{
+    color: white;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+    background-color: #56ccf2;
+}
+
+.btn-primary:hover{
+    background-color:#2D9CDB;
+}
+
+.body{
+    align-items: center;
+    padding:2em;
+
+}
+
+.shop-item{
+    margin: 30px;
+}
+
+.shop-item-title{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333333;
+    margin-bottom: 15px;
+}
+
+.shop-item-image{
+    height: 250px;
+    width: 250px;
+
+}
+
+.shop-item-details{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+
+}
+.shop-item-price{
+    flex-grow: 1;
+    color: #333333;
+}
+
+.shop-items{
+    display:flex;
+    flex-wrap:wrap ;
+    justify-content: space-around;
+
+}
+
+.cart-header{
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #333333;
+}
+
+.cart-column{
+    display:flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    
+}
+
+.cart-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cart-item{
+    width: 40%;
+
+}
+
+.cart-price{
+width: 20%;
+}
+
+.cart-quantity{
+    width: 31%;
+
+}
